@@ -4,7 +4,8 @@
   "description": "confer.js is a small library that finds the closes match of a list in a given collection list",
   "main": "./lib/confer",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "test": "cd test/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/graned/confer-js/issues"
   },
-  "homepage": "https://github.com/graned/confer-js#readme"
+  "homepage": "https://github.com/graned/confer-js#readme",
+  "dependencies": {
+    "rambda": "^0.9.3",
+    "sinon": "^4.0.0"
+  }
 }
