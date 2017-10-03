@@ -5,18 +5,18 @@ describe('Confer', () => {
   context('when the given colleciton list is an object', () => {
     const objectCollection = {
       k1: ['elem1', 'elem3', 'elem2'],
-      k2: ['elem1', 'elem2', 'elem3', 'elem4'],
+      k2: ['elem1', 2, 'elem3', 'elem4'],
       k3: ['elem2', 'elem1', 'elem3'],
-      k4: ['elem1', 'elem2'],
+      k4: ['elem1', 2],
       k5: ['elem3', 'elem2', 'elem7'],
     };
 
     context('and it finds matches', () => {
-      const list = ['elem1', 'elem2'];
+      const list = ['elem1', 2];
       it('should return matched results', () => {
         expect(confer(objectCollection, list), 'to exhaustively satisfy', {
-          k2: ['elem1', 'elem2', 'elem3', 'elem4'],
-          k4: ['elem1', 'elem2'],
+          k2: ['elem1', 2, 'elem3', 'elem4'],
+          k4: ['elem1', 2],
         });
       });
     });
