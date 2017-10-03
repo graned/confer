@@ -3,9 +3,8 @@
   "version": "1.0.1",
   "description": "confer.js is a small library that finds the closes match of a list in a given collection list",
   "main": "./lib/confer",
+  "main": "index.js",
   "scripts": {
-    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
-    "prepublish": "npm run compile",
     "test": "cd test && mocha '*.test.js'"
   },
   "repository": {
@@ -29,9 +28,6 @@
     "unexpected": "^10.35.0"
   },
   "devDependencies": {
-    "mocha": "^4.0.0",
-    "babel-cli": "^6.24.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-stage-0": "^6.22.0"
+    "mocha": "^4.0.0"
   }
 }
