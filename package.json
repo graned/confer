@@ -5,7 +5,7 @@
   "main": "./lib/confer",
   "scripts": {
     "compile": "babel --presets es2015,stage-0 -d lib/ src/",
-    "test": "cd test/*.js"
+    "test": "cd test && mocha '*.test.js'"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,9 @@
   "homepage": "https://github.com/graned/confer-js#readme",
   "dependencies": {
     "rambda": "^0.9.3",
-    "sinon": "^4.0.0"
+    "unexpected": "^10.35.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.0"
   }
 }
