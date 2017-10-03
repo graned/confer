@@ -1,0 +1,25 @@
+{
+  "name": "confer-js",
+  "version": "1.0.0",
+  "description": "confer.js is a small library that finds the closes match of a list in a given collection list",
+  "main": "./lib/confer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graned/confer-js.git"
+  },
+  "keywords": [
+    "lists",
+    "arrays",
+    "compare",
+    "find"
+  ],
+  "author": "graned",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graned/confer-js/issues"
+  },
+  "homepage": "https://github.com/graned/confer-js#readme"
+}
