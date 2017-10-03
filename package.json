@@ -5,6 +5,7 @@
   "main": "./lib/confer",
   "scripts": {
     "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile",
     "test": "cd test && mocha '*.test.js'"
   },
   "repository": {
