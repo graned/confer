@@ -8,5 +8,5 @@ module.exports = (collection, list) => {
   var indexedMapper = R.addIndex(R.map);
 
   indexedMapper(filter, list);
-  return results; 
+  return results;
 };

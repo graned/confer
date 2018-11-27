@@ -1,5 +1,5 @@
 const expect = require('unexpected').clone();
-const confer = require('../lib');
+const confer = require('./confer');
 
 describe('Confer', () => {
   context('when the given colleciton list is an object', () => {
