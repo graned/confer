@@ -4,7 +4,7 @@
   "description": "confer.js is a small library that finds the closes match of a list in a given collection list",
   "main": "confer.js",
   "scripts": {
-    "test": "cd test && mocha '*.test.js'"
+    "test": "mocha '*.test.js'"
   },
   "repository": {
     "type": "git",
